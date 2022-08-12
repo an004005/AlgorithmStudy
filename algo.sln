@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "알고리즘", "알고리�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1일차", "1일차\1일차.vcxproj", "{45B41E1F-6EF2-4107-B13D-D187B45F7F13}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "연습", "연습", "{DB568675-8131-4B61-8E88-A6E253C8D594}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "연습", "연습\연습.vcxproj", "{843B3C37-0591-46D8-BCC3-BB3F9D1C4370}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,11 +27,20 @@ Global
 		{45B41E1F-6EF2-4107-B13D-D187B45F7F13}.Release|x64.Build.0 = Release|x64
 		{45B41E1F-6EF2-4107-B13D-D187B45F7F13}.Release|x86.ActiveCfg = Release|Win32
 		{45B41E1F-6EF2-4107-B13D-D187B45F7F13}.Release|x86.Build.0 = Release|Win32
+		{843B3C37-0591-46D8-BCC3-BB3F9D1C4370}.Debug|x64.ActiveCfg = Debug|x64
+		{843B3C37-0591-46D8-BCC3-BB3F9D1C4370}.Debug|x64.Build.0 = Debug|x64
+		{843B3C37-0591-46D8-BCC3-BB3F9D1C4370}.Debug|x86.ActiveCfg = Debug|Win32
+		{843B3C37-0591-46D8-BCC3-BB3F9D1C4370}.Debug|x86.Build.0 = Debug|Win32
+		{843B3C37-0591-46D8-BCC3-BB3F9D1C4370}.Release|x64.ActiveCfg = Release|x64
+		{843B3C37-0591-46D8-BCC3-BB3F9D1C4370}.Release|x64.Build.0 = Release|x64
+		{843B3C37-0591-46D8-BCC3-BB3F9D1C4370}.Release|x86.ActiveCfg = Release|Win32
+		{843B3C37-0591-46D8-BCC3-BB3F9D1C4370}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{45B41E1F-6EF2-4107-B13D-D187B45F7F13} = {45DE96AD-9B97-41D6-B602-62DA9DCA84B9}
+		{843B3C37-0591-46D8-BCC3-BB3F9D1C4370} = {DB568675-8131-4B61-8E88-A6E253C8D594}
 	EndGlobalSection
 EndGlobal
