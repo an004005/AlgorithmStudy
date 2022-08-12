@@ -15,7 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="10828%28스택%29.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="9093(단어뒤집기).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="9012(괄호).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1874(스택수열).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
