@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\누적합\16973(직사각형탈출).cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Astar.cpp">
+    <ClCompile Include="1707(이분그래프).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
