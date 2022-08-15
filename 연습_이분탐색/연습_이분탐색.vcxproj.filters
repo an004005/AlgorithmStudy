@@ -18,5 +18,8 @@
     <ClCompile Include="2805(나무자르기).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1920(수찾기).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
