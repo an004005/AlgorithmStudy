@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2167(2차월배열합).cpp">
+    <ClCompile Include="1463(1로만들기).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="11723(집합).cpp">
+    <ClCompile Include="11726(2n타일링).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="11727(2n타일링2).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2133(타일채우기).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
