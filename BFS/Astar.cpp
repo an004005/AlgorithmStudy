@@ -23,14 +23,14 @@ struct Node
 
 
 int map[R][C] {
+	{ 0,0,1,0,0,1,0,0,0,0 },
+	{ 0,0,1,0,1,1,0,0,0,0 },
+	{ 0,0,1,0,0,1,0,0,0,0 },
+	{ 0,0,1,1,0,1,0,1,1,1 },
 	{ 0,0,0,0,0,1,0,0,0,0 },
-	{ 0,0,0,0,0,1,0,0,0,0 },
-	{ 0,0,0,0,0,1,0,0,0,0 },
-	{ 0,0,0,0,0,1,0,1,1,1 },
-	{ 0,0,0,0,0,1,0,0,0,0 },
-	{ 0,0,1,1,1,1,1,1,1,0 },
-	{ 0,0,0,0,0,0,0,0,0,0 },
-	{ 0,0,0,0,0,0,0,0,0,0 },
+	{ 0,1,1,1,1,1,1,1,1,0 },
+	{ 0,0,0,0,0,0,0,0,1,0 },
+	{ 0,0,0,0,0,1,1,1,1,0 },
 	{ 0,0,0,0,0,0,0,0,0,0 },
 	{ 0,0,0,0,0,0,0,0,0,0 }
 };
@@ -45,7 +45,7 @@ void AStar()
 {
 	Node starMap[R][C];
 	bool closed[R][C]{};
-	priority_queue<Pair> Q;
+	priority_queue<Pair> Q; // open list
 
 	int sy = 0;
 	int sx = 0;
@@ -53,17 +53,17 @@ void AStar()
 	int desty = 0;
 	int destx = 9;
 
-	starMap[sy][sx].f =0.f;
-	Q.push({ 0, {sy,sx} });
+	starMap[sy][sx].f = heuristic(sy, sx, desty, destx);
+	closed[sy][sx] = true;
+	Q.push({ -starMap[sy][sx].f, {sy,sx} });
 
 	while (!Q.empty())
 	{
 		Pair cur = Q.top();
 		Q.pop();
-		float f = cur.first;
+		float f = -cur.first;
 		int y = cur.second.first;
 		int x = cur.second.second;
-		closed[y][x] = true;
 		Node& curNode = starMap[y][x];
 
 		for (int i = 0; i < 4; ++i)
@@ -101,21 +101,30 @@ void AStar()
 			if (closed[ny][nx])
 				continue;
 
-			int nf, ng, nh;
-			ng = curNode.g + 1;
-			nh = heuristic(ny, nx, desty, destx);
-			nf = ng + nh;
-
+			closed[ny][nx] = true;
 			Node& nNode = starMap[ny][nx];
-			if (nNode.f > nf)
-			{
-				nNode.fromY = y;
-				nNode.fronX = x;
-				nNode.g = ng;
-				nNode.h = nh;
-				nNode.f = nf;
-				Q.push({ nNode.f, {ny, nx} });
-			}
+			nNode.fromY = y;
+			nNode.fronX = x;
+			nNode.g = curNode.g + 1;
+			nNode.h = heuristic(ny, nx, desty, destx);
+			nNode.f = nNode.g * nNode.h;
+			Q.push({ -nNode.f, {ny, nx} });
+
+			//int nf, ng, nh;
+			//ng = curNode.g + 1;
+			//nh = heuristic(ny, nx, desty, destx);
+			//nf = ng + nh;
+
+			//Node& nNode = starMap[ny][nx];
+			//if (nNode.f > nf)
+			//{
+			//	nNode.fromY = y;
+			//	nNode.fronX = x;
+			//	nNode.g = ng;
+			//	nNode.h = nh;
+			//	nNode.f = nf;
+			//	Q.push({ -nNode.f, {ny, nx} });
+			//}
 		}
 	}
 }
