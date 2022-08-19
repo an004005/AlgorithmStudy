@@ -21,5 +21,8 @@
     <ClCompile Include="3085(사탕게임).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="11053(가장긴증가하는수열).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
