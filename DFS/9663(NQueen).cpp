@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-constexpr int dy[8]{ 1,-1,0,0, 1,1,-1,-1 };
+constexpr int di[8]{ 1,-1,0,0, 1,1,-1,-1 };
 constexpr int dx[8]{ 0,0,1,-1, 1,-1,-1,1 };
 
 int N;

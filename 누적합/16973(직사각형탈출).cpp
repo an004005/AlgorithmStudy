@@ -8,7 +8,7 @@ int map[1001][1001]{};
 bool visit[1001][1001]{};
 
 // 아래, 위, 왼쪽 ,오른쪽 이동
-constexpr int dy[4]{ 1,-1,0,0 };
+constexpr int di[4]{ 1,-1,0,0 };
 constexpr int dx[4]{ 0,0,-1,1 };
 
 struct Info
@@ -93,7 +93,7 @@ int main()
 		// 아래, 위, 왼쪽 ,오른쪽 이동
 		for (int i = 0; i < 4; ++i)
 		{
-			int ny = cur.y + dy[i];
+			int ny = cur.y + di[i];
 			int nx = cur.x + dx[i];
 			
 			if (!checkOut(i, ny, nx))

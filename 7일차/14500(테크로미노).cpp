@@ -4,7 +4,7 @@
 #include <cstring>
 using namespace std;
 
-int dy[4]{ -1,0,1,0 };
+int di[4]{ -1,0,1,0 };
 int dx[4]{ 0,1,0,-1 };
 
 int N, M;
@@ -24,7 +24,7 @@ void dfs(int y, int x, int depth)
 
 	for (int i = 0; i < 4; ++i)
 	{
-		int ny = y + dy[i];
+		int ny = y + di[i];
 		int nx = x + dx[i];
 
 		if (nx < 0 || ny < 0 || nx >= M || ny >= N)
@@ -48,7 +48,7 @@ void exceptBlock(int y, int x)
 		int exceptSum = map[y][x];
 		for (int j = 0; j < 3; ++j)
 		{
-			int ny = y + dy[(i + j) % 4];
+			int ny = y + di[(i + j) % 4];
 			int nx = x + dx[(i + j) % 4];
 			if (nx < 0 || ny < 0 || nx >= M || ny >= N)
 				break;

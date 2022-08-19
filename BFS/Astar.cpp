@@ -9,7 +9,7 @@ constexpr int R = 10;
 constexpr int C = 10;
 
 // 0 : down, 1 : up, 2 : right, 3 : left
-constexpr int dy[4]{ 1,-1,0,0 };
+constexpr int di[4]{ 1,-1,0,0 };
 constexpr int dx[4]{ 0,0,1,-1 };
 
 using Pair = pair<float, pair<int, int>>; //f, y, x
@@ -68,7 +68,7 @@ void AStar()
 
 		for (int i = 0; i < 4; ++i)
 		{
-			int ny = y + dy[i];
+			int ny = y + di[i];
 			int nx = x + dx[i];
 			if (ny == desty && nx == destx)
 			{

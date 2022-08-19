@@ -21,7 +21,7 @@ struct shark
 	shark() {}
 };
 
-constexpr int dy[5]{ 0, -1,1,0,0 };
+constexpr int di[5]{ 0, -1,1,0,0 };
 constexpr int dx[5]{ 0, 0,0,1,-1 };
 
 int R, C, M;
@@ -65,7 +65,7 @@ void MoveShark()
 
 					while (minMove--)
 					{
-						int ny = y + dy[sha.d];
+						int ny = y + di[sha.d];
 						int nx = x + dx[sha.d];
 
 						if (ny < 1 || nx < 1 || ny > R || nx > C)
@@ -85,7 +85,7 @@ void MoveShark()
 								sha.d = RIGHT;
 								break;
 							}
-							ny = y + dy[sha.d];
+							ny = y + di[sha.d];
 							nx = x + dx[sha.d];
 						}
 
