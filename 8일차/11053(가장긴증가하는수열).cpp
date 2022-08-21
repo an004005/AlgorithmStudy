@@ -31,8 +31,8 @@ int bisearch(int n)
 	return ret;
 }
 /*
-6
-3 2 5 2 3 1
+7
+3 2 5 2 3 1 4
 */
 
 int main()
