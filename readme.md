@@ -7,8 +7,8 @@
 낚시왕, 8/14
 1707 이분그래프, 8/15
 1912 연속합
-
-
+1790 수이어쓰기2
+1931 회의실 배정
 
 ## 자주 푸는 알고리즘
 dfs, 백트래킹
@@ -44,7 +44,7 @@ https://plzrun.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%
 
 ## 주의 사항
 
-# 시작 템플릿
+## 시작 템플릿
 ```cpp
 
 #define _CRT_SECURE_NO_WARNINGS
