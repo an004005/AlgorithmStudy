@@ -21,5 +21,14 @@
     <ClCompile Include="15988%28123더하기%29.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1182(부분수열의 합).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2667(단지번호).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1149(rgb거리).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
