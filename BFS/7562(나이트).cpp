@@ -7,7 +7,7 @@ using namespace std;
 
 int n, m;
 int dist[MAX][MAX] = { 0 };
-bool visited[MAX][MAX];
+bool dist[MAX][MAX];
 int moveWidth[4] = { -1, -2, 1, 2 };
 int moveUp[4] = { 2, 1, 2, 1 };
 int moveDown[4] = { -2, -1, -2, -1 };
@@ -17,7 +17,7 @@ void bfs(int start_x, int start_y)
 {
 	queue<pair<int, int>> q;
 	q.push({ start_x, start_y });
-	visited[start_x][start_y] = true;
+	dist[start_x][start_y] = true;
 	dist[start_x][start_y] = 0;
 
 	while (!q.empty())
@@ -34,7 +34,7 @@ void bfs(int start_x, int start_y)
 
 			if (nx >= 0 && nx < m && nyu >= 0 && nyu < m)
 			{
-				if (visited[nx][nyu])
+				if (dist[nx][nyu])
 				{
 					if (dist[nx][nyu] > dist[x][y] + 1)
 					{
@@ -45,14 +45,14 @@ void bfs(int start_x, int start_y)
 				else
 				{
 					q.push({ nx, nyu });
-					visited[nx][nyu] = true;
+					dist[nx][nyu] = true;
 					dist[nx][nyu] = dist[x][y] + 1;
 				}
 			}
 
 			if (nx >= 0 && nx < m && nyd >= 0 && nyd < m)
 			{
-				if (visited[nx][nyd])
+				if (dist[nx][nyd])
 				{
 					if (dist[nx][nyd] > dist[x][y] + 1)
 					{
@@ -63,7 +63,7 @@ void bfs(int start_x, int start_y)
 				else
 				{
 					q.push({ nx, nyd });
-					visited[nx][nyd] = true;
+					dist[nx][nyd] = true;
 					dist[nx][nyd] = dist[x][y] + 1;
 				}
 			}
@@ -81,7 +81,7 @@ int main(void)
 	while (n--)
 	{
 		memset(dist, 0, sizeof(dist));
-		memset(visited, 0, sizeof(visited));
+		memset(dist, 0, sizeof(dist));
 
 		cin >> m;
 		cin >> startx >> starty;

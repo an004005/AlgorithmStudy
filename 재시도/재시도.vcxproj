@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9218EB7E-E9D0-4EAE-84DB-3CE474D93B8E}</ProjectGuid>
+    <ProjectGuid>{72C4920D-088F-4796-8816-64FEB2329129}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My16일차</RootNamespace>
+    <RootNamespace>재시도</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,13 +146,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="19236(청소년상어).cpp">
+    <ClCompile Include="10282(해킹, 다익스트라).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="2263(트리순회).cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="4963(섬의개수).cpp">
+    <ClCompile Include="12865%28평범한 배낭, dp%29.cpp" />
+    <ClCompile Include="2805%28나무자르기, 이분탐색%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
