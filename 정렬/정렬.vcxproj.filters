@@ -18,5 +18,8 @@
     <ClCompile Include="힙.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="퀵소트.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

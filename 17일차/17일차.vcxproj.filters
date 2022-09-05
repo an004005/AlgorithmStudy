@@ -21,5 +21,8 @@
     <ClCompile Include="1759(암호만들기).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1074(Z).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
