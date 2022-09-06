@@ -24,5 +24,11 @@
     <ClCompile Include="1074(Z).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2138(전구와 스위치).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="14501(퇴사).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
