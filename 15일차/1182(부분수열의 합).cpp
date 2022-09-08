@@ -10,23 +10,23 @@ int cnt = 0;
 int sum = 0;
 int part = 0;
 
-void dfs(int n)
+void dfs(int cur)
 {
-	if (n == N)
+	if (cur == N)
 	{
 		if (part > 0 && sum == s)
 			++cnt;
 		return;
 	}
 
-	sum += nums[n];
+	sum += nums[cur];
 	part++;
-	dfs(n + 1);
-	sum -= nums[n];
+	dfs(cur + 1);
+	sum -= nums[cur];
 	part--;
 
 
-	dfs(n + 1); // not add
+	dfs(cur + 1); // not add
 }
 
 int main()

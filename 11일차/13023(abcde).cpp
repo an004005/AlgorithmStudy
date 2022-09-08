@@ -9,23 +9,23 @@ vector<vector<int>> graph;
 bool visit[2000]{};
 stack<int> s;
 
-void dfs(int n)
+void dfs(int cur)
 {
-	visit[n] = true;
-	s.push(n);
+	visit[cur] = true;
+	s.push(cur);
 	if (s.size() >= 5)
 	{
 		cout << 1 << endl;
 		exit(0);
 	}
 	
-	for (auto& next : graph[n])
+	for (auto& next : graph[cur])
 	{
 		if (!visit[next])
 			dfs(next);
 	}
 
-	visit[n] = false;
+	visit[cur] = false;
 	s.pop();
 }
 

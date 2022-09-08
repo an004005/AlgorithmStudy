@@ -7,14 +7,14 @@ int N, M;
 bool graph[1001][1001]{};
 bool visit[1001]{};
 
-void dfs(int n)
+void dfs(int cur)
 {
-	visit[n] = true;
+	visit[cur] = true;
 
 	for (int i = 1; i <= N; ++i)
 	{
 		if (visit[i]) continue;
-		if (!graph[n][i]) continue;
+		if (!graph[cur][i]) continue;
 		dfs(i);
 	}
 }
