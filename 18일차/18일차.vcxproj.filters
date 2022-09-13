@@ -21,5 +21,8 @@
     <ClCompile Include="13913(숨바꼭질4(.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="14226(이모티콘).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
