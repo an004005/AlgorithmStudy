@@ -24,5 +24,8 @@
     <ClCompile Include="14226(이모티콘).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="14889(스타트와링크).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
