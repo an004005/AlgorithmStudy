@@ -27,5 +27,8 @@
     <ClCompile Include="14889(스타트와링크).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2529(부등호).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
