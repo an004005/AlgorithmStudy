@@ -21,5 +21,11 @@
     <ClCompile Include="1261(알고스팟).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="16928(뱀과 사다리 게임).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10819(차이를 최대로).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
