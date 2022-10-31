@@ -27,5 +27,11 @@
     <ClCompile Include="10819(차이를 최대로).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="9465(스티커).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2156(포도주시식).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
