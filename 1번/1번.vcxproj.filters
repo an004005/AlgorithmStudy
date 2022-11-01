@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="성공">
+      <UniqueIdentifier>{562d5bae-7195-453b-b9b0-1c8d87e1db43}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="다시풀기">
+      <UniqueIdentifier>{8b3fc50b-0778-4d8e-9f55-c2e3bd801161}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="14891(톱니바퀴).cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="1261(알고스팟).cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="16928(뱀과 사다리 게임).cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="10819(차이를 최대로).cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="9465(스티커).cpp">
-      <Filter>Source Files</Filter>
+      <Filter>성공</Filter>
     </ClCompile>
     <ClCompile Include="2156(포도주시식).cpp">
-      <Filter>Source Files</Filter>
+      <Filter>성공</Filter>
+    </ClCompile>
+    <ClCompile Include="9465(스티커).cpp">
+      <Filter>성공</Filter>
+    </ClCompile>
+    <ClCompile Include="10819(차이를 최대로).cpp">
+      <Filter>성공</Filter>
+    </ClCompile>
+    <ClCompile Include="14891(톱니바퀴).cpp">
+      <Filter>성공</Filter>
+    </ClCompile>
+    <ClCompile Include="16928(뱀과 사다리 게임).cpp">
+      <Filter>성공</Filter>
+    </ClCompile>
+    <ClCompile Include="1285(동전뒤집기).cpp">
+      <Filter>다시풀기</Filter>
+    </ClCompile>
+    <ClCompile Include="1202(보석도둑).cpp">
+      <Filter>성공</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
