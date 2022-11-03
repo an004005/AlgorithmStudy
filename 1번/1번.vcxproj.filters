@@ -36,7 +36,7 @@
     <ClCompile Include="10825(국영수).cpp">
       <Filter>성공</Filter>
     </ClCompile>
-    <ClCompile Include="12886(돌그룹).cpp">
+    <ClCompile Include="1248(guess).cpp">
       <Filter>성공</Filter>
     </ClCompile>
   </ItemGroup>
