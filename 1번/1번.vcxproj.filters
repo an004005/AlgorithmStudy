@@ -39,5 +39,11 @@
     <ClCompile Include="1248(guess).cpp">
       <Filter>성공</Filter>
     </ClCompile>
+    <ClCompile Include="6603(로또).cpp">
+      <Filter>성공</Filter>
+    </ClCompile>
+    <ClCompile Include="14225(부분수열의 합).cpp">
+      <Filter>성공</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
