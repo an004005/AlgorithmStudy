@@ -57,5 +57,17 @@
     <ClCompile Include="16234(인구이동).cpp">
       <Filter>성공</Filter>
     </ClCompile>
+    <ClCompile Include="1103(게임).cpp">
+      <Filter>다시풀기</Filter>
+    </ClCompile>
+    <ClCompile Include="1520(내리막길).cpp">
+      <Filter>다시풀기</Filter>
+    </ClCompile>
+    <ClCompile Include="2174(로봇시뮬레이션).cpp">
+      <Filter>성공</Filter>
+    </ClCompile>
+    <ClCompile Include="1753(최단경로).cpp">
+      <Filter>성공</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
