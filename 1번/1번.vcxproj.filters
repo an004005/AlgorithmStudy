@@ -7,55 +7,16 @@
     <Filter Include="다시풀기">
       <UniqueIdentifier>{8b3fc50b-0778-4d8e-9f55-c2e3bd801161}</UniqueIdentifier>
     </Filter>
+    <Filter Include="성공\1">
+      <UniqueIdentifier>{06250ab0-bf07-4523-8764-0ba96d103cdd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1261(알고스팟).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
-    <ClCompile Include="2156(포도주시식).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
-    <ClCompile Include="9465(스티커).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
-    <ClCompile Include="10819(차이를 최대로).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
-    <ClCompile Include="14891(톱니바퀴).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
-    <ClCompile Include="16928(뱀과 사다리 게임).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
     <ClCompile Include="1285(동전뒤집기).cpp">
       <Filter>다시풀기</Filter>
     </ClCompile>
-    <ClCompile Include="1202(보석도둑).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
-    <ClCompile Include="10825(국영수).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
-    <ClCompile Include="1248(guess).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
-    <ClCompile Include="6603(로또).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
-    <ClCompile Include="14225(부분수열의 합).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
-    <ClCompile Include="14888(연산자 끼워넣기).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
     <ClCompile Include="1113(수영장만들기).cpp">
       <Filter>다시풀기</Filter>
-    </ClCompile>
-    <ClCompile Include="16197(두동전).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
-    <ClCompile Include="16234(인구이동).cpp">
-      <Filter>성공</Filter>
     </ClCompile>
     <ClCompile Include="1103(게임).cpp">
       <Filter>다시풀기</Filter>
@@ -63,10 +24,58 @@
     <ClCompile Include="1520(내리막길).cpp">
       <Filter>다시풀기</Filter>
     </ClCompile>
-    <ClCompile Include="2174(로봇시뮬레이션).cpp">
-      <Filter>성공</Filter>
+    <ClCompile Include="1202(보석도둑).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1248(guess).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1261(알고스팟).cpp">
+      <Filter>성공\1</Filter>
     </ClCompile>
     <ClCompile Include="1753(최단경로).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2156(포도주시식).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2174(로봇시뮬레이션).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="6603(로또).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="9465(스티커).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="10819(차이를 최대로).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="10825(국영수).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="14225(부분수열의 합).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="14888(연산자 끼워넣기).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="14891(톱니바퀴).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="16197(두동전).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="16198(에너지모으기).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="16234(인구이동).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="16928(뱀과 사다리 게임).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1653(양팔저울).cpp">
       <Filter>성공</Filter>
     </ClCompile>
   </ItemGroup>
