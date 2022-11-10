@@ -78,5 +78,8 @@
     <ClCompile Include="1653(양팔저울).cpp">
       <Filter>성공</Filter>
     </ClCompile>
+    <ClCompile Include="16235(나무재테크).cpp">
+      <Filter>다시풀기</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
