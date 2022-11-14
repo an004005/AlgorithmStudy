@@ -10,6 +10,9 @@
     <Filter Include="성공\1">
       <UniqueIdentifier>{06250ab0-bf07-4523-8764-0ba96d103cdd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="성공\2">
+      <UniqueIdentifier>{3abbb8b5-af58-48d1-b8d0-39ad61c17d04}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1285(동전뒤집기).cpp">
@@ -75,11 +78,17 @@
     <ClCompile Include="16928(뱀과 사다리 게임).cpp">
       <Filter>성공\1</Filter>
     </ClCompile>
-    <ClCompile Include="1653(양팔저울).cpp">
-      <Filter>성공</Filter>
-    </ClCompile>
     <ClCompile Include="16235(나무재테크).cpp">
       <Filter>다시풀기</Filter>
+    </ClCompile>
+    <ClCompile Include="1653(양팔저울).cpp">
+      <Filter>다시풀기</Filter>
+    </ClCompile>
+    <ClCompile Include="2529(부등호).cpp">
+      <Filter>성공\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1339(단어수학).cpp">
+      <Filter>성공\2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
