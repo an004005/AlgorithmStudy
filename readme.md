@@ -15,6 +15,8 @@
 2138 전구와스위치
 1285 동전뒤집기
 
+https://school.programmers.co.kr/learn/courses/30/lessons/118669 등산코스 정하기
+
 ## 다시풀기
 1202 보석도둑
 
