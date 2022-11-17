@@ -97,7 +97,10 @@
       <Filter>성공\2</Filter>
     </ClCompile>
     <ClCompile Include="1806(부분합).cpp">
-      <Filter>성공</Filter>
+      <Filter>성공\2</Filter>
+    </ClCompile>
+    <ClCompile Include="광고삽입.cpp">
+      <Filter>다시풀기</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

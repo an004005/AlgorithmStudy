@@ -14,6 +14,7 @@
 1080 행렬
 2138 전구와스위치
 1285 동전뒤집기
+2629 양팔저울
 
 https://school.programmers.co.kr/learn/courses/30/lessons/118669 등산코스 정하기
 
