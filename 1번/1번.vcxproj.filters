@@ -102,5 +102,11 @@
     <ClCompile Include="광고삽입.cpp">
       <Filter>다시풀기</Filter>
     </ClCompile>
+    <ClCompile Include="11060(점프점프).cpp">
+      <Filter>성공\2</Filter>
+    </ClCompile>
+    <ClCompile Include="12946(육각보드).cpp">
+      <Filter>성공\2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
