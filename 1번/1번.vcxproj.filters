@@ -108,5 +108,11 @@
     <ClCompile Include="12946(육각보드).cpp">
       <Filter>성공\2</Filter>
     </ClCompile>
+    <ClCompile Include="16940(bfs스페셜저지.cpp">
+      <Filter>성공\2</Filter>
+    </ClCompile>
+    <ClCompile Include="16964%28dfs스페셜저지%29.cpp">
+      <Filter>성공\2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
