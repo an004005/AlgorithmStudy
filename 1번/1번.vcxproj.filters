@@ -114,5 +114,8 @@
     <ClCompile Include="16964%28dfs스페셜저지%29.cpp">
       <Filter>성공\2</Filter>
     </ClCompile>
+    <ClCompile Include="2206(벽부수고 이동하기).cpp">
+      <Filter>성공\2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
