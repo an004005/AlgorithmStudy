@@ -118,6 +118,9 @@
       <Filter>성공\2</Filter>
     </ClCompile>
     <ClCompile Include="5557(1학년).cpp">
+      <Filter>성공\2</Filter>
+    </ClCompile>
+    <ClCompile Include="16974(레벨햄버거).cpp">
       <Filter>성공</Filter>
     </ClCompile>
   </ItemGroup>
